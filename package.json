@@ -1,0 +1,17 @@
+{
+  "name": "root",
+  "version": "1.0.0",
+  "description": "A modern full-stack template Vite-powered React frontend and a Node.js + Express + Prisma backend, connected to a Supabase-hosted PostgreSQL database.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepare": "husky install"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^9.26.0",
+    "prettier": "^3.5.3"
+  }
+}

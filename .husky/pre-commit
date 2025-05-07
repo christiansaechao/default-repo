@@ -2,4 +2,4 @@
 . "$(dirname "$0")/_/husky.sh"
 
 echo '✅ Husky is workin!'
-echo 'Current SHELL:' $SHELL
+echo 'Current SHELL: testing' $SHELL

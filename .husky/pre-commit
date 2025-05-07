@@ -1,8 +1,8 @@
-#!/bin/sh
+#!/bin/bash
 . "$(dirname "$0")/_/husky.sh"
 
 # Check if Husky is working
-echo '✅ Husky is working!'
+echo '✅ Husky is working! test'
 
 # Run lint-staged on staged files
 npx lint-staged

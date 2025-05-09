@@ -12,11 +12,12 @@ export default function App() {
         const currentSession = await supabase.auth.getSession();
         console.log(currentSession);
         setSession(currentSession);
-    }
+    };
 
     useEffect(() => {
         fetchSession(); 
-    }, [])
+    }, []);
+
     return (
         <div>
             <TaskManager />

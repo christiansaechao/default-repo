@@ -17,10 +17,10 @@ export default function App() {
     useEffect(() => {
         fetchSession(); 
     }, []);
-
+    
     return (
         <div>
-            <TaskManager /
+            <TaskManager />
             <Auth />
         </div>
     );
